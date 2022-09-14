@@ -24,5 +24,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd example-percy-ember-master
+          export PERCY_TOKEN=16f3529e5175dea0c33c0e81fd58536786b094d02ce1e57f16cdb6c8a79d8199
           npm install
           npm run test
